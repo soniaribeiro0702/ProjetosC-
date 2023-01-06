@@ -1,0 +1,15 @@
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\bin\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.exe
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\bin\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.deps.json
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\bin\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.runtimeconfig.json
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\bin\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.dll
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\bin\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.pdb
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.csproj.AssemblyReference.cache
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.AssemblyInfoInputs.cache
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.AssemblyInfo.cs
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.csproj.CoreCompileInputs.cache
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.dll
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\refint\ProgramaMatrizSomaNumerosPositivos.dll
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.pdb
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ProgramaMatrizSomaNumerosPositivos.genruntimeconfig.cache
+C:\Projetos\ProgramaMatrizSomaNumerosPositivos\obj\Debug\net6.0\ref\ProgramaMatrizSomaNumerosPositivos.dll

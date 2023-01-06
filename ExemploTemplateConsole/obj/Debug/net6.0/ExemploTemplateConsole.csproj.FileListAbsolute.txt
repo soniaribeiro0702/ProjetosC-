@@ -1,0 +1,15 @@
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.csproj.AssemblyReference.cache
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.AssemblyInfoInputs.cache
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.AssemblyInfo.cs
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.csproj.CoreCompileInputs.cache
+C:\Projetos\ExemploTemplateConsole\bin\Debug\net6.0\ExemploTemplateConsole.exe
+C:\Projetos\ExemploTemplateConsole\bin\Debug\net6.0\ExemploTemplateConsole.deps.json
+C:\Projetos\ExemploTemplateConsole\bin\Debug\net6.0\ExemploTemplateConsole.runtimeconfig.json
+C:\Projetos\ExemploTemplateConsole\bin\Debug\net6.0\ExemploTemplateConsole.dll
+C:\Projetos\ExemploTemplateConsole\bin\Debug\net6.0\ExemploTemplateConsole.pdb
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.dll
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\refint\ExemploTemplateConsole.dll
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.pdb
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ExemploTemplateConsole.genruntimeconfig.cache
+C:\Projetos\ExemploTemplateConsole\obj\Debug\net6.0\ref\ExemploTemplateConsole.dll
