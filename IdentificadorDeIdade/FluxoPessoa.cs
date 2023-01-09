@@ -8,7 +8,7 @@ namespace IdentificadorDeIdade
 {
     public class FluxoPessoa
     {
-        public String[] nomes = new string[3];
+        public String[] nomes = new string[10];
         public List<int> idades = new List<int>();
         public void Executar()
         {
