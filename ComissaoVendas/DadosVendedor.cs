@@ -31,12 +31,12 @@ namespace ComissaoVendas
         {
           
             Console.WriteLine("Informe o nome do vendedor em questão");
-            NomeDoVendedor = Convert.ToString(Console.ReadLine());
+            NomeDoVendedor = (Console.ReadLine());
 
-            Console.WriteLine("Qual é o salário fixo do(a) vendedor(a) " + NomeDoVendedor);
+            Console.WriteLine($"Qual é o salário fixo do(a) vendedor(a) {NomeDoVendedor}");
             SalarioFixoDoVendedor = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Informe o valor total que o " + NomeDoVendedor + " realizou neste mês");
+            Console.WriteLine($"Informe o valor total que o  {NomeDoVendedor}  realizou neste mês");
             ValorTotalDeVendasEfetuadas = Convert.ToDouble(Console.ReadLine());
         }
         private void CalcularComissao()
@@ -45,10 +45,12 @@ namespace ComissaoVendas
         }
         private void ResultadoDoCalculo()
         {
-            Console.WriteLine("O(a) vendedor(a) " + NomeDoVendedor + ", cujo salário mensal é de " + SalarioFixoDoVendedor +
-                ", receberá o valor total de " + CalculoTotalDeGanhosMensal + ", já somadas as comissões das vendas realizadas esse mês. ");
-        }
+            Console.WriteLine($"O(a) vendedor(a) {NomeDoVendedor}, cujo salário mensal é de {SalarioFixoDoVendedor}, " +
+                $"receberá o valor total de {CalculoTotalDeGanhosMensal}, já somadas as comissões das vendas realizadas esse mês. ");
 
+            Console.ReadKey();
+        }
+        
 
     }
 }
