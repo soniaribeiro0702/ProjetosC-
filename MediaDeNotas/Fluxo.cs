@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MediaDeNotas
 {
-    internal class Fluxo
+    public class Fluxo
     {
         public string NomeAluno { get; set; }
         public Double Nota1 { get; set; }
@@ -28,7 +28,7 @@ namespace MediaDeNotas
         private void ReceberNotas()
         {
             Console.WriteLine("Informe o nome do aluno: ");
-            NomeAluno = Convert.ToString(Console.ReadLine());
+            NomeAluno = (Console.ReadLine());
 
             Console.WriteLine("Informe a nota da primera prova: ");
             Nota1 = Convert.ToDouble(Console.ReadLine());
@@ -40,6 +40,7 @@ namespace MediaDeNotas
 
         private void CacularMedia()
         {
+            
             MediaNota = (Nota1 + Nota2) / 2;
         }
 
@@ -47,12 +48,12 @@ namespace MediaDeNotas
         {
             if (MediaNota < 7)
             {
-                Console.WriteLine("O(a) aluno(a) " + NomeAluno + " foi reprovado(a) por obter nota abaixo de 70%: nota " + MediaNota);
+                Console.WriteLine($"O(a) aluno(a) {NomeAluno} foi reprovado(a) por obter nota abaixo de 70%: nota {MediaNota}");
 
             }
             else
             {
-                Console.WriteLine("O(a) aluno(a) " + NomeAluno + " foi aprovado(a) por obter nota necessária para aprovação: nota " + MediaNota);
+                Console.WriteLine($"O(a) aluno(a) {NomeAluno} foi aprovado(a) por obter nota necessária para aprovação: nota {MediaNota}");
             }
 
             Console.ReadKey();
