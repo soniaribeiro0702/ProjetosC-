@@ -12,14 +12,14 @@ namespace IdentificadorDeIdade
             Console.WriteLine("###Identificação de Senioridade###");
             Console.WriteLine("##################################");
 
-            String[] nomes = new string[3];
+            String[] nomes = new string[10];
             List<int> idades = new List<int>();
             
 
             for (int i = 0; i < nomes.Length; i++)
             {
                 Console.WriteLine("Informe o nome da pessoa: ");
-                nomes[i] = Convert.ToString(Console.ReadLine());
+                nomes[i] = (Console.ReadLine());
                 Console.WriteLine("Informe a idade dessa pessoa: ");
                 idades.Add(Convert.ToInt32(Console.ReadLine()));
 

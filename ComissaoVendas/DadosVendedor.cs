@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComissaoVendas
 {
-    internal class DadosVendedor
+    public class DadosVendedor
     {
 
         public String NomeDoVendedor { get; set; }
