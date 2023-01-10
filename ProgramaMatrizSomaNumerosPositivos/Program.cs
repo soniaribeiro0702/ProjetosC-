@@ -1,4 +1,6 @@
-﻿namespace ProgramaMatrizSomaNumerosPositivos
+﻿using System;
+
+namespace ProgramaMatrizSomaNumerosPositivos
 {
     internal class Program
     {
@@ -8,25 +10,27 @@
             Console.WriteLine("###Programa para soma de números positivos em Bingo###");
             Console.WriteLine("######################################################");
 
-            var matrizNumeros = new int[3, 3];
-            matrizNumeros[0, 0] = 1;
-            matrizNumeros[0, 0] = 8;
-            matrizNumeros[0, 2] = 15;
+            int quantidadeLinhas, quantidadeColunas;
 
-            matrizNumeros[1, 0] = -6;
-            matrizNumeros[1, 0] = 5;
-            matrizNumeros[1, 2] = 5;
+            Console.WriteLine("Quantas linhas a sua cartela tem? ");
+            string? linhasInformadas = Console.ReadLine();
+            quantidadeLinhas = Convert.ToInt32(linhasInformadas);
 
-            matrizNumeros[2, 0] = 6;
-            matrizNumeros[2, 0] = 5;
-            matrizNumeros[2, 2] = -5;
+            Console.WriteLine("Quantas linhas a sua cartela tem? ");
+            string? colunasInformadas = Console.ReadLine();
+            quantidadeColunas = Convert.ToInt32(colunasInformadas);
 
-            
-            
-            for (int contadorLinhas = 0; contadorLinhas < matrizNumeros.Length) ;
+            var matrizNumeros = new int[quantidadeLinhas, quantidadeColunas];
 
-                int somaNumeros = 0;
-                
-        }
+            for (int contadorLinhas = 0; contadorLinhas < quantidadeLinhas; contadorLinhas++);
+            {
+                for (int contadorColunas = 0; contadorColunas < quantidadeColunas; contadorColunas++) ;
+                {
+                        Console.WriteLine($"Informe o número da {contadorLinhas + 1} linha, da {contadorColunas + 1}: ");
+                        Convert.ToInt32(Console.ReadLine());    
+                }
+
+            }
+         }
     }
 }

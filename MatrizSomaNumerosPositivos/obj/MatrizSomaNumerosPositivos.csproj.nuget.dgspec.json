@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj": {}
+    "C:\\ProjetosAtuais\\ProjetosC-\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj": {
+    "C:\\ProjetosAtuais\\ProjetosC-\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj",
+        "projectUniqueName": "C:\\ProjetosAtuais\\ProjetosC-\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj",
         "projectName": "MatrizSomaNumerosPositivos",
-        "projectPath": "C:\\Projetos\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj",
+        "projectPath": "C:\\ProjetosAtuais\\ProjetosC-\\MatrizSomaNumerosPositivos\\MatrizSomaNumerosPositivos.csproj",
         "packagesPath": "C:\\Users\\Sônia\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\MatrizSomaNumerosPositivos\\obj\\",
+        "outputPath": "C:\\ProjetosAtuais\\ProjetosC-\\MatrizSomaNumerosPositivos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sônia\\AppData\\Roaming\\NuGet\\NuGet.Config",
