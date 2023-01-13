@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\bin\Debug\net6.0\GravarDadosArquivo.exe
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\bin\Debug\net6.0\GravarDadosArquivo.deps.json
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\bin\Debug\net6.0\GravarDadosArquivo.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\bin\Debug\net6.0\GravarDadosArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\bin\Debug\net6.0\GravarDadosArquivo.pdb
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\refint\GravarDadosArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.pdb
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\GravarDadosArquivo.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\GravarDadosArquivo\obj\Debug\net6.0\ref\GravarDadosArquivo.dll

@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\bin\Debug\net6.0\MediaDeNotas.exe
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\bin\Debug\net6.0\MediaDeNotas.deps.json
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\bin\Debug\net6.0\MediaDeNotas.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\bin\Debug\net6.0\MediaDeNotas.dll
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\bin\Debug\net6.0\MediaDeNotas.pdb
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.dll
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\refint\MediaDeNotas.dll
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.pdb
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\MediaDeNotas.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\MediaDeNotas\obj\Debug\net6.0\ref\MediaDeNotas.dll

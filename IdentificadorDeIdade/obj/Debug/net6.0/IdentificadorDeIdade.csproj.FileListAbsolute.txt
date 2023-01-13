@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\bin\Debug\net6.0\IdentificadorDeIdade.exe
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\bin\Debug\net6.0\IdentificadorDeIdade.deps.json
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\bin\Debug\net6.0\IdentificadorDeIdade.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\bin\Debug\net6.0\IdentificadorDeIdade.dll
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\bin\Debug\net6.0\IdentificadorDeIdade.pdb
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.dll
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\refint\IdentificadorDeIdade.dll
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.pdb
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\IdentificadorDeIdade.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\IdentificadorDeIdade\obj\Debug\net6.0\ref\IdentificadorDeIdade.dll

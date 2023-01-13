@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\bin\Debug\net6.0\NovoProjetoPetShop.exe
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\bin\Debug\net6.0\NovoProjetoPetShop.deps.json
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\bin\Debug\net6.0\NovoProjetoPetShop.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\bin\Debug\net6.0\NovoProjetoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\bin\Debug\net6.0\NovoProjetoPetShop.pdb
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\refint\NovoProjetoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.pdb
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\NovoProjetoPetShop.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\NovoProjetoPetShop\obj\Debug\net6.0\ref\NovoProjetoPetShop.dll

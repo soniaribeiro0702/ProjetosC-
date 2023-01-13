@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\bin\Debug\net6.0\SistemaGerenciamentoPetShop.exe
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\bin\Debug\net6.0\SistemaGerenciamentoPetShop.deps.json
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\bin\Debug\net6.0\SistemaGerenciamentoPetShop.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\bin\Debug\net6.0\SistemaGerenciamentoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\bin\Debug\net6.0\SistemaGerenciamentoPetShop.pdb
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\refint\SistemaGerenciamentoPetShop.dll
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.pdb
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\SistemaGerenciamentoPetShop.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\SistemaGerenciamentoPetShop\obj\Debug\net6.0\ref\SistemaGerenciamentoPetShop.dll

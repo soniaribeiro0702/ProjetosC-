@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\bin\Debug\net6.0\LerDadosDoArquivo.exe
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\bin\Debug\net6.0\LerDadosDoArquivo.deps.json
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\bin\Debug\net6.0\LerDadosDoArquivo.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\bin\Debug\net6.0\LerDadosDoArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\bin\Debug\net6.0\LerDadosDoArquivo.pdb
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\refint\LerDadosDoArquivo.dll
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.pdb
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\LerDadosDoArquivo.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\LerDadosDoArquivo\obj\Debug\net6.0\ref\LerDadosDoArquivo.dll

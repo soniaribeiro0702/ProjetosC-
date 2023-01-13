@@ -1,0 +1,15 @@
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\bin\Debug\net6.0\SegregacaoDeNumerosPositivos.exe
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\bin\Debug\net6.0\SegregacaoDeNumerosPositivos.deps.json
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\bin\Debug\net6.0\SegregacaoDeNumerosPositivos.runtimeconfig.json
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\bin\Debug\net6.0\SegregacaoDeNumerosPositivos.dll
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\bin\Debug\net6.0\SegregacaoDeNumerosPositivos.pdb
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.csproj.AssemblyReference.cache
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.AssemblyInfoInputs.cache
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.AssemblyInfo.cs
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.csproj.CoreCompileInputs.cache
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.dll
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\refint\SegregacaoDeNumerosPositivos.dll
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.pdb
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\SegregacaoDeNumerosPositivos.genruntimeconfig.cache
+C:\ProjetosAtuais\ProjetosC-\SegregacaoDeNumerosPositivos\obj\Debug\net6.0\ref\SegregacaoDeNumerosPositivos.dll
