@@ -1,4 +1,5 @@
 ﻿using NovoProjetoPetShop.Repositorios;
+using NovoProjetoPetShop.Servicos;
 
 namespace NovoProjetoPetShop
 {
@@ -6,11 +7,16 @@ namespace NovoProjetoPetShop
     {
         static void Main(string[] args)
         {
-            var LerGravar = new LerGravarArquivos();
-            LerGravar.ExecutarGravacaoELeitura();
+            Menu menu = new Menu();
+            menu.BaseDeDados();
+            menu.OpcaoMenu();
+            
 
-            var manipular = new ManipularArquivos();
-            manipular.Manipular();
+            //var LerGravar = new LerGravarArquivos();
+          //  LerArquivoCsv.ExecutarGravacaoELeitura();
+
+            //var manipular = new ManipularArquivos();
+            //manipular.Manipular();
 
 
         }

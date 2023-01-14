@@ -10,22 +10,22 @@ namespace NovoProjetoPetShop.Repositorios
 {
     public class LerGravarArquivos
     {
-        public void ExecutarGravacaoELeitura()
+        String caminho = "C:\\ProjetosAtuais\\ProjetosC-\\NovoProjetoPetShop\\base_de_dados.csv";
+        public void GravarArquivosCsv(List<String> conteudo)
         {
-            GravarArquivosCsv();
-            LerArquivosCsv();
-        }           
-        public void GravarArquivosCsv()
-        {
+            String cabecalho = "NOME;CPF;DATA DE NASCIMENTO;NOME PET;DATA_ALTERACAO;DATA_EXCLUSAO";
             try
             {
-                StreamWriter sw = new StreamWriter($"C:{Path.DirectorySeparatorChar}ProjetosAtuais{Path.DirectorySeparatorChar}ProjetosC-{Path.DirectorySeparatorChar}NovoProjetoPetShop{Path.DirectorySeparatorChar}EntradasESaidas{Path.DirectorySeparatorChar}Saidas{Path.DirectorySeparatorChar}Sample.csv");
+                StreamWriter arquivo = new StreamWriter(caminho);
+                arquivo.WriteLine(cabecalho);
 
-                sw.WriteLine("Insira as informações de interesse");
+                if (conteudo.Count() > 0)
+                {
+                    arquivo.WriteLine(conteudo);
+                }
 
-                sw.WriteLine("From the StreamWriter class");
 
-                sw.Close();
+                arquivo.Close();
             }
             catch (Exception e)
             {
@@ -38,33 +38,43 @@ namespace NovoProjetoPetShop.Repositorios
 
         }
 
-        public void LerArquivosCsv()
+        public List<String> LerArquivosCsv()
         {
+            StreamReader file;
             try
             {
-                using var file = new StreamReader($"C:{Path.DirectorySeparatorChar}ProjetosAtuais{Path.DirectorySeparatorChar}ProjetosC-{Path.DirectorySeparatorChar}NovoProjetoPetShop{Path.DirectorySeparatorChar}EntradasESaidas{Path.DirectorySeparatorChar}Entradas{Path.DirectorySeparatorChar}Sample.csv");
+                List<String> conteudo = new List<String>();
+                if (caminho == null || caminho == "")
+                {
+                    caminho = "C:\\ProjetosAtuais\\ProjetosC-\\NovoProjetoPetShop\\base_de_dados.csv";
+                }
+                file = new StreamReader(caminho);
                 string? line;
 
                 while ((line = file.ReadLine()) != null)
+                {
+                    conteudo.Add(line);
+                    line = line;
                     Console.WriteLine(line);
-
+                }
                 file.Close();
+                return conteudo;
 
             }
             catch (Exception e)
             {
                 Console.WriteLine("Exception: " + e.Message);
+                return null;
+
             }
 
-            finally
-            {
-                Console.WriteLine("Executing finally block.");
-            }
+
         }
 
-       
+
     }
+
 }
 
-    
+
 
