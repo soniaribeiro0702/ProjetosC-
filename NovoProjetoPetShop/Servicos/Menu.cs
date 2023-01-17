@@ -12,18 +12,27 @@ namespace NovoProjetoPetShop.Servicos
 {
     public class Menu
     {
-        List<String> conteudo;
-        LerGravarArquivos adapter = new LerGravarArquivos();
-        Validacoes validacoes = new Validacoes();
+        List<String> conteudo = new List<string>();
 
+        private readonly LerGravarArquivos adapter;
+        private readonly Validacoes validacoes;
+
+        public Menu()
+        {
+         
+            conteudo = new List<string>();
+            adapter = new LerGravarArquivos();
+            validacoes = new Validacoes();
+        }
         public void BaseDeDados()
         {
-            if (adapter.LerArquivosCsv() == null)
+            conteudo = adapter.LerArquivosCsv();
+            if (conteudo.Count() == 0)
             {
                 adapter.GravarArquivosCsv(conteudo);
                 conteudo = adapter.LerArquivosCsv();
             }
-
+           
         }
 
         public void OpcaoMenu()
@@ -41,8 +50,11 @@ namespace NovoProjetoPetShop.Servicos
                 Console.WriteLine("0 - Encerrar programa");
 
                 Console.WriteLine("Digite um dos valores acima");
-                opcao = Convert.ToInt16(Console.ReadLine());
-
+                
+                if (!int.TryParse(Console.ReadLine(), out opcao))
+                {
+                    Console.WriteLine("O valor informado não é um número valido!");
+                }
 
                 var metodosmenu = new MetodosMenu();
 
@@ -68,7 +80,7 @@ namespace NovoProjetoPetShop.Servicos
                         {
                             cpfASerAlterado = validacoes.RemoverMascaraCPF(cpfASerAlterado);
                             cpfASerAlterado = validacoes.MascararCPF(cpfASerAlterado);
-                            for (int i = 0; i <= conteudo.Count; i++)
+                            for (int i = 0; i < conteudo.Count; i++)
                             {
                                 if (conteudo[i].Contains(";" + cpfASerAlterado + ";"))
                                 {
@@ -87,7 +99,7 @@ namespace NovoProjetoPetShop.Servicos
                         {
                             cpfASerDeletado = validacoes.RemoverMascaraCPF(cpfASerDeletado);
                             cpfASerDeletado = validacoes.MascararCPF(cpfASerDeletado);
-                            for (int i = 0; i <= conteudo.Count; i++)
+                            for (int i = 0; i < conteudo.Count; i++)
                             {
                                 if (conteudo[i].Contains(";" + cpfASerDeletado + ";"))
                                 {
@@ -101,7 +113,10 @@ namespace NovoProjetoPetShop.Servicos
 
 
                     case 4:
-                        metodosmenu.ListarTodosOsClientes();
+                        foreach(var l in conteudo)
+                        {
+                            Console.WriteLine(l);
+                        }
                         break;
                     case 5:
                         Console.WriteLine("Por favor informe o CPF para localizar o cliente de interesse");
@@ -111,7 +126,7 @@ namespace NovoProjetoPetShop.Servicos
                             cpfDigitado = validacoes.RemoverMascaraCPF(cpfDigitado);
                             cpfDigitado = validacoes.MascararCPF(cpfDigitado);
                             String clienteLocalizado = "";
-                            for (int i = 0; i <= conteudo.Count; i++)
+                            for (int i = 0; i < conteudo.Count; i++)
                             {
                                 if (conteudo[i].Contains(";" + cpfDigitado + ";"))
                                 {
@@ -133,10 +148,10 @@ namespace NovoProjetoPetShop.Servicos
 
                         break;
                     case 6:
-                        List<String> aniversariantes = metodosmenu.ListarAniversarianteDoMes(conteudo);
+                        List<string> aniversariantes = metodosmenu.ListarAniversarianteDoMes(conteudo);
                         if (aniversariantes.Count > 0)
                         {
-                            foreach (String aniversariante in aniversariantes)
+                            foreach (string aniversariante in aniversariantes)
                             {
                                 Console.WriteLine(aniversariante);
                             }

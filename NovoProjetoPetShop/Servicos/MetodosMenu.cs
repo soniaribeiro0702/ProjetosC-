@@ -14,23 +14,21 @@ namespace NovoProjetoPetShop.Servicos
     public class MetodosMenu
     {
         Validacoes validacoes = new Validacoes();
-        public String CadastrarClientes()
+        public string CadastrarClientes()
         {
-            var cliente = new Cliente();
+            var cliente = new Cliente
+            {
+                Nome = ReceberNome(),
+                Cpf = ReceberCpf(),
+                DataDeNascimento = ReceberDataDeNascimento(),
+                NomeDoPet = ReceberNomeDoPet()
+            };
 
-            cliente.Nome = ReceberNome();
-
-            cliente.Cpf = ReceberCpf();
-
-            cliente.DataDeNascimento = ReceberDataDeNascimento();
-
-            cliente.NomeDoPet = ReceberNomeDoPet();
-
-            String linha = cliente.Nome.ToString() + ";" + cliente.Cpf.ToString() + ";" + cliente.DataDeNascimento.ToString() + ";" + cliente.NomeDoPet.ToString() + ";" + DateTime.Now;
+            string linha = cliente.Nome.ToString() + ";" + cliente.Cpf.ToString() + ";" + cliente.DataDeNascimento.ToString() + ";" + cliente.NomeDoPet.ToString() + ";" + DateTime.Now;
             return linha;
         }
 
-        private String ReceberNome()
+        private string ReceberNome()
         {
             Console.WriteLine("Digite o nome do cliente:");
             var nome = Console.ReadLine();
@@ -46,7 +44,7 @@ namespace NovoProjetoPetShop.Servicos
             }
             return nome;
         }
-        private String ReceberCpf()
+        private string ReceberCpf()
         {
             bool valido = false;
             Console.WriteLine("Digite o CPF do cliente:");
@@ -69,7 +67,7 @@ namespace NovoProjetoPetShop.Servicos
 
             return cpf;
         }
-        private String ReceberDataDeNascimento()
+        private string ReceberDataDeNascimento()
         {
 
             Console.WriteLine("Digite a Data de nascimento ");
@@ -99,7 +97,7 @@ namespace NovoProjetoPetShop.Servicos
             return nascimento.ToString();
 
         }
-        private String ReceberNomeDoPet()
+        private string ReceberNomeDoPet()
         {
             Console.WriteLine("Informe o nome do Pet");
             var nomePet = Console.ReadLine();
@@ -112,9 +110,15 @@ namespace NovoProjetoPetShop.Servicos
         }
 
 
-        public String AtualizarClientes(String cpf)
+        public string AtualizarClientes(string cpf)
         {
-            var AlterarDado = new Cliente();
+            var AlterarDado = new Cliente
+            {
+                Nome = ReceberNome(),
+                DataDeNascimento = ReceberDataDeNascimento(),
+                NomeDoPet = ReceberNomeDoPet(),
+                DataDeAlteracao = DateTime.Now.ToString(),
+            };
 
             AlterarDado.Nome = ReceberNome();
 
@@ -122,21 +126,18 @@ namespace NovoProjetoPetShop.Servicos
 
             AlterarDado.NomeDoPet = ReceberNomeDoPet();
 
-            String linha = AlterarDado.Nome.ToString() + ";" + cpf + ";" + AlterarDado.DataDeNascimento.ToString() + ";" + AlterarDado.NomeDoPet.ToString() + ";" + DateTime.Now;
+            string linha = AlterarDado.Nome.ToString() + ";" + cpf + ";" + AlterarDado.DataDeNascimento.ToString() + ";" + AlterarDado.NomeDoPet.ToString() + ";" + AlterarDado.DataDeAlteracao;
             return linha;
 
 
         }
-        public String DesativarClientes(String conteudo)
+        public string DesativarClientes(string conteudo)
         {
-            String linha = conteudo + ";" + DateTime.Now;
+            string linha = conteudo + ";" + DateTime.Now;
             return linha;
         }
-        public void ListarTodosOsClientes()
-        {
 
-        }
-        public String BuscarClientesPorCpf(String cpf)
+        public string BuscarClientesPorCpf(string cpf)
         {
             var PesquisarCliente = new Cliente();
 
@@ -149,19 +150,19 @@ namespace NovoProjetoPetShop.Servicos
             String linha = PesquisarCliente.Nome.ToString() + ";" + cpf + ";" + PesquisarCliente.DataDeNascimento.ToString() + ";" + PesquisarCliente.NomeDoPet.ToString() + ";" + DateTime.Now;
             return linha;
         }
-        public List<String> ListarAniversarianteDoMes(List<String> conteudo)
+        public List<string> ListarAniversarianteDoMes(List<string> conteudo)
         {
 
             int mes = DateTime.Now.Month;
-            String mesAniversariante = mes.ToString();
-            List<String> aniversariantes = new List<String>();
+            string mesAniversariante = mes.ToString();
+            List<string> aniversariantes = new();
 
             if (mes < 10)
             {
                 mesAniversariante = "0" + mes;
             }
 
-            for (int i = 0; i <= conteudo.Count; i++)
+            for (int i = 0; i < conteudo.Count; i++)
             {
                 if (conteudo[i].Contains("/" + mesAniversariante + "/"))
                 {

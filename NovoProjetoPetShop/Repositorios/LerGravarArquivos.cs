@@ -17,11 +17,19 @@ namespace NovoProjetoPetShop.Repositorios
             try
             {
                 StreamWriter arquivo = new StreamWriter(caminho);
-                arquivo.WriteLine(cabecalho);
-
-                if (conteudo.Count() > 0)
+                if (conteudo.Count < 1)
                 {
-                    arquivo.WriteLine(conteudo);
+                    arquivo.WriteLine(cabecalho);
+
+                }
+
+                if (conteudo.Any())
+                {
+                    foreach (var item in conteudo)
+                    {
+
+                        arquivo.WriteLine(item);
+                    }
                 }
 
 

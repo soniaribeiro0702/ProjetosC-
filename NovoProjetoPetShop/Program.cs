@@ -10,14 +10,6 @@ namespace NovoProjetoPetShop
             Menu menu = new Menu();
             menu.BaseDeDados();
             menu.OpcaoMenu();
-            
-
-            //var LerGravar = new LerGravarArquivos();
-          //  LerArquivoCsv.ExecutarGravacaoELeitura();
-
-            //var manipular = new ManipularArquivos();
-            //manipular.Manipular();
-
 
         }
     }

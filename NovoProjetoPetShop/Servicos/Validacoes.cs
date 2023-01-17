@@ -118,7 +118,7 @@ namespace NovoProjetoPetShop.Servicos
 
         public static DateTime ValidarDataNascimento(String dataNascimento)
         {
-            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-CA");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
             DateTime resultado = DateTime.Parse(dataNascimento);
 
             if (resultado != null)
